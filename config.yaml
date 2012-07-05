@@ -1,0 +1,7 @@
+---
+name: eurl
+version: 1
+handle:
+- rewrite: if(!is_file()) goto "index.php"
+...
+

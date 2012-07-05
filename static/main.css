@@ -1,0 +1,16 @@
+#gbh_left,#gbh_right{border-top:1px solid #c9d7f1;font-size:1px;height:0;position:absolute;top:24px;width:100%;}
+#gbh_left{left:0;} 
+#gbh_right{right:0;}
+#sae_logo{vertical-align: middle; align: left; border: none;}
+#bookmark{margin: 50 0;color: gray;}
+.scheme{color:blue;}
+.error{color: red;}
+.noti{color: #240B3B;}
+span{font-size: 13px;}
+p{width:500px;margin:0px;font-size:13px;color:#666666;}
+h4{margin:0px;}
+p.shortcut{width:100px;height:30px;line-height:30px;font-size:24px;background:#DBE6FD;border:1px dotted #555;text-align:center;font-family:arial;font-weight:bold;}
+p.shortcut a:link,p.shortcut a:visited{display:block;width:100px;height:30px;text-decoration:none;color:black;border:0;margin:0;text-indent:0;padding:0;margin:0;}
+p.shortcut a:hover{border:0;color:none;background:none;cursor:move;}
+p.shortcut:hover{text-decoration:none;border: 1px dashed #666;}
+.dotline {BORDER-BOTTOM-STYLE: dotted; BORDER-LEFT-STYLE: dotted; BORDER-RIGHT-STYLE: dotted; BORDER-TOP-STYLE: dotted} 
