@@ -31,6 +31,7 @@ else if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             require 'makeUrl.php';
             break;
         case "/un.url":
+            $url = strip_tags( $_REQUEST['url'] );
             require 'unurl.php';
             break; 
         default:
