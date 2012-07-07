@@ -9,6 +9,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $url_num = get_url_num();
             require 'index.tpl';
             break;
+        case "/un.url":
+            require 'unurl.tpl';
+            break;      
         default:
             $id = code2id(str_replace('/','',$url['path']));
             $mysql = new SaeMysql();
@@ -27,6 +30,9 @@ else if ($_SERVER['REQUEST_METHOD'] == 'POST'){
             $url = strip_tags( $_REQUEST['url'] );
             require 'makeUrl.php';
             break;
+        case "/un.url":
+            require 'unurl.php';
+            break; 
         default:
             redirect('http://'.$host);
     }
